@@ -12,23 +12,33 @@ $(document).ready(function() {
     const q6 = $("#color").val();
 
 
-    if (q2 === 'evening' && q3 !== 'spring' && q4 === 'iOS' && q5 === 'severe') {
+    if (q2 === 'afternoon' && q3 === 'summer' && q4 === 'ios' && q5 === 'none') {
       $('.div2').show();
       $('#csharp').hide();
       $('#javascript').hide();
+      $('#python').hide();
       $('#ruby').show();
       $('#language')[0].reset();
-    } else if (q2 !== 'evening' && q3 === 'spring' || 'winter' && q4 === 'android' && q5 !== 'moderate') {
+    } else if (q2 === 'evening' && q3 === 'winter' && q4 === 'android' && q5 === 'moderate') {
       $('.div2').show();
       $('#ruby').hide();
       $('#csharp').hide();
+      $('#python').hide();
       $('#javascript').show();
+      $('#language')[0].reset();
+    } else if (q2 === 'morning' && q3 === 'autumn' && q4 === 'ios' && q5 === 'severe') {
+      $('.div2').show();
+      $('#ruby').hide();
+      $('#javascript').hide();
+      $('#python').hide();
+      $('#csharp').show();
       $('#language')[0].reset();
     } else {
       $('.div2').show();
       $('#ruby').hide();
       $('#javascript').hide();
-      $('#csharp').show();
+      $('#csharp').hide();
+      $('#python').show();
       $('#language')[0].reset();
     } 
 
