@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 
     if (q2 === 'morning') {
-      $('#javascript').show();
+      $('#ruby').show();
     }
 
 
