@@ -12,7 +12,7 @@ $(document).ready(function() {
     const q6 = $("#color").val();
 
 
-    if (q2 === 'afternoon' && q3 === 'summer' && q4 === 'ios' && q5 === 'none' || q2 === 'evening' && q3 === 'spring' && q4 === 'ios' && q5 === 'moderate' ) {
+    if (q2 === 'afternoon' && q3 === 'summer' && q4 === 'ios' && q5 === 'none' || q2 === 'evening' && q3 === 'spring' && q4 === 'ios' && q5 === 'moderate'  || q2 === 'afternoon' && q3 === 'summer' && q4 === 'ios' && q5 === 'moderate' ) {
       $('.div2').show();
       $('#csharp').hide();
       $('#javascript').hide();
@@ -20,7 +20,7 @@ $(document).ready(function() {
       $('#python').hide();
       $('#ruby').show();
       $('#language')[0].reset();
-    } else if (q2 === 'evening' && q3 === 'winter' && q4 === 'android' && q5 === 'moderate' || q2 === 'morning' && q3 === 'autumn' && q4 === 'android' && q5 === 'severe' ) {
+    } else if (q2 === 'evening' && q3 === 'winter' && q4 === 'android' && q5 === 'moderate' || q2 === 'morning' && q3 === 'autumn' && q4 === 'android' && q5 === 'severe' || q2 === 'afternoon' && q3 === 'summer' && q4 === 'android' && q5 === 'moderate') {
       $('.div2').show();
       $('#ruby').hide();
       $('#csharp').hide();
@@ -28,7 +28,7 @@ $(document).ready(function() {
       $('#cplus').hide();
       $('#javascript').show();
       $('#language')[0].reset();
-    } else if (q2 === 'morning' && q3 === 'autumn' && q4 === 'ios' && q5 === 'severe' || q2 === 'morning' && q3 === 'winter' && q4 === 'ios' && q5 === 'none' ) {
+    } else if (q2 === 'morning' && q3 === 'autumn' && q4 === 'ios' && q5 === 'severe' || q2 === 'morning' && q3 === 'winter' && q4 === 'ios' && q5 === 'none' || q2 === 'morning' && q3 === 'summer' && q4 === 'ios' && q5 === 'none' ) {
       $('.div2').show();
       $('#ruby').hide();
       $('#javascript').hide();
@@ -36,7 +36,7 @@ $(document).ready(function() {
       $('#cplus').hide();
       $('#csharp').show();
       $('#language')[0].reset();
-    } else if (q2 === 'afternoon' && q3 === 'autumn' && q4 === 'ios' && q5 === 'none' || q2 === 'evening' && q3 === 'summer' && q4 === 'ios' && q5 === 'severe') {
+    } else if (q2 === 'afternoon' && q3 === 'autumn' && q4 === 'ios' && q5 === 'none' || q2 === 'evening' && q3 === 'summer' && q4 === 'ios' && q5 === 'severe' || q2 === 'evening' && q3 === 'summer' && q4 === 'ios' && q5 === 'none') {
       $('.div2').show();
       $('#ruby').hide();
       $('#javascript').hide();
