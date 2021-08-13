@@ -12,35 +12,47 @@ $(document).ready(function() {
     const q6 = $("#color").val();
 
 
-    if (q2 === 'afternoon' && q3 === 'summer' && q4 === 'ios' && q5 === 'none') {
+    if (q2 === 'afternoon' && q3 === 'summer' && q4 === 'ios' && q5 === 'none' || q2 === 'evening' && q3 === 'spring' && q4 === 'ios' && q5 === 'moderate' ) {
       $('.div2').show();
       $('#csharp').hide();
       $('#javascript').hide();
+      $('#cplus').hide();
       $('#python').hide();
       $('#ruby').show();
       $('#language')[0].reset();
-    } else if (q2 === 'evening' && q3 === 'winter' && q4 === 'android' && q5 === 'moderate') {
+    } else if (q2 === 'evening' && q3 === 'winter' && q4 === 'android' && q5 === 'moderate' || q2 === 'morning' && q3 === 'autumn' && q4 === 'android' && q5 === 'severe' ) {
       $('.div2').show();
       $('#ruby').hide();
       $('#csharp').hide();
       $('#python').hide();
+      $('#cplus').hide();
       $('#javascript').show();
       $('#language')[0].reset();
-    } else if (q2 === 'morning' && q3 === 'autumn' && q4 === 'ios' && q5 === 'severe') {
+    } else if (q2 === 'morning' && q3 === 'autumn' && q4 === 'ios' && q5 === 'severe' || q2 === 'morning' && q3 === 'winter' && q4 === 'ios' && q5 === 'none' ) {
       $('.div2').show();
       $('#ruby').hide();
       $('#javascript').hide();
       $('#python').hide();
+      $('#cplus').hide();
       $('#csharp').show();
+      $('#language')[0].reset();
+    } else if (q2 === 'afternoon' && q3 === 'autumn' && q4 === 'ios' && q5 === 'none' || q2 === 'evening' && q3 === 'summer' && q4 === 'ios' && q5 === 'severe') {
+      $('.div2').show();
+      $('#ruby').hide();
+      $('#javascript').hide();
+      $('#csharp').hide();
+      $('#cplus').hide();
+      $('#python').show();
       $('#language')[0].reset();
     } else {
       $('.div2').show();
       $('#ruby').hide();
       $('#javascript').hide();
       $('#csharp').hide();
-      $('#python').show();
+      $('#python').hide();
+      $('#cplus').show();
       $('#language')[0].reset();
-    } 
+    }
 
 
 
