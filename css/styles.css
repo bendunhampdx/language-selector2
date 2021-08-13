@@ -1,7 +1,9 @@
 .lang {
   display: none;
 }
-
+.div2 {
+  display: none;
+}
 .lang img {
   width: 75%;
   margin: auto;
