@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function() {
   $("form#language").submit(function(event) {
     event.preventDefault();
@@ -10,7 +13,8 @@ $(document).ready(function() {
 
 
     if (q2 === 'morning') {
-      $('#csharp').show();
+      $('#ruby').show();
+      $('#language')[0].reset();
     }
 
 

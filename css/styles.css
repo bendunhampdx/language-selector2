@@ -1,8 +1,9 @@
 .lang {
   display: none;
 }
+
 .lang img {
-  width: 100%;
+  width: 75%;
   margin: auto;
   display: block;
   box-sizing: border-box;
