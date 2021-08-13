@@ -1,39 +1,37 @@
-# _{Application Name}_
+# _Language Selector_
 
-#### _{Brief description of application}_
+#### _This app uses a survey to determine which programming language you should learn_
 
-#### By _**{List of contributors}**_
+#### By: **Ben Dunham**
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _JQuery_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+With the programming language selector application a user enters their name and then answers a few questions to determine which programming language they should learn There is complex logic in place via javascript branching to shuffle the options.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone the project to your desktop using the command ``git clone https://github.com/bendunhampdx/language-selector2``_
+* _To open in your browser navigate to the project folder and open the **index.html** file_
+* _To view/edit source code in **VS Code** navigate into the project using the command ``cd language-selector`` and then run ``code .``_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_[MIT](https://opensource.org/licenses/MIT)_
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_Ben Dunham: bendunhampdx@gmail.com_
