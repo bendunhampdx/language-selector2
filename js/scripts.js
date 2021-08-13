@@ -12,23 +12,17 @@ $(document).ready(function() {
     const q6 = $("#color").val();
 
 
-    if (q2 === 'morning' && q3 === 'summer' && q4 === 'iOS' && q5 === 'severe') {
+    if (q2 === 'evening' && q3 !== 'spring' && q4 === 'iOS' && q5 === 'severe') {
       $('.div2').show();
       $('#csharp').hide();
       $('#javascript').hide();
       $('#ruby').show();
       $('#language')[0].reset();
-    } else if (q2 === 'morning' && q3 === 'summer' && q4 === 'iOS' && q5 === 'moderate') {
+    } else if (q2 !== 'evening' && q3 === 'spring' || 'winter' && q4 === 'android' && q5 !== 'moderate') {
       $('.div2').show();
       $('#ruby').hide();
       $('#csharp').hide();
       $('#javascript').show();
-      $('#language')[0].reset();
-    } else if (q2 === 'morning') {
-      $('.div2').show();
-      $('#ruby').hide();
-      $('#javascript').hide();
-      $('#csharp').show();
       $('#language')[0].reset();
     } else {
       $('.div2').show();
@@ -36,8 +30,7 @@ $(document).ready(function() {
       $('#javascript').hide();
       $('#csharp').show();
       $('#language')[0].reset();
-    }
-
+    } 
 
 
 
